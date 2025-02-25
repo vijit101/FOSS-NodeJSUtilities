@@ -1,0 +1,28 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "Reusable utilities for Node.js applications",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./utils": "./src/utils/index.js",
+    "./middleware": "./src/middleware/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "utilities",
+    "express",
+    "middleware"
+  ],
+  "author": "Shuham B.",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
